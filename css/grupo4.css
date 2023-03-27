@@ -91,6 +91,14 @@ footer{
 .container {
     max-width: 1140px;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#img-logo{
+    width: 500px;
+}
 
 .navbar {
     display: flex;
