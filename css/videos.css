@@ -102,6 +102,14 @@ footer {
 .container-fluid {
     max-width: 1440px;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#img-logo{
+    width: 500px;
+}
 
 .navbar {
     display: flex;
