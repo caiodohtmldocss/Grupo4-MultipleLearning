@@ -11,54 +11,55 @@
     <meta name="description"
         content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="css/grupo4.css">
-    <title>vídeos Multiple Learning</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <title>Portal Educacional SESI-SENAI</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="#">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#content">Home</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#videos">Vídeos</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#mapamental">Mapa Mental</a>
-                    </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="./img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
 
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#compartilhar">Compartilhar</a>
-                    </li>
-                </ul>
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
     </header>
-
     <main>
-<<<<<<< HEAD
         <div class="logo-content">
-            <img id="img-logo" src="img/Logo_Multiple-Learning.png" alt="Logo do Portal"
+            <img id="img-logo" src="./img/Logo_Multiple-Learning.webp" alt="Logo do Portal"
                 description="Logo do Portal Multiple Learning">
         </div>
-        <h1>Multiple Learning</h1>
         <div class="container">
             <div class="materias">
                 <h2>Matérias</h2>
                 <ul class="grid-columns">
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo1.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo7.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/calculating.png" alt="icone de matemática">
                             </div>
@@ -67,7 +68,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
+                    <li class="col-3 hover-shadow">
                         <a class="linha-grid" href="grupo2.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/venn-diagram.png" alt="icone de matemática">
@@ -77,18 +78,18 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo3.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo1.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/linguistics.png" alt="icone de linguística">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">História da Literatura: Romantismo e Modernismo</span>
+                                <span class="text-materia">História da Literatura, Romantismo e Modernismo</span>
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo4.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo6.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/calculator.png" alt="icone de matemática">
                             </div>
@@ -97,8 +98,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo5.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo3.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/globe.png" alt="icone de geografia">
                             </div>
@@ -107,18 +108,18 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo4.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="mapamental.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/philosophy.png" alt="icone de filosofia">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">Sociologia/Filosofia: Midias sociais</span>
+                                <span class="text-materia">Períodos Históricos</span>
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo7.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo5.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/dna.png" alt="icone de biologia">
                             </div>
@@ -127,100 +128,36 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
+                    <li class="col-3 hover-shadow">
                         <a class="linha-grid" href="grupo8.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/language.png" alt="icone de portuguÊs">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">Verbo</span>
+                                <span class="text-materia">Verbos</span>
                             </div>
                         </a>
                     </li>
                 </ul>
-=======
-        <div class="logo">
-            <img id="img-logo" src="img/Logo_Multiple-Learning.png" alt="">
-        </div>
-        <div class="content">
-            <div>
-
-            </div>
-        </div>
-
-        <div class="videos">
-            <div>
-
-            </div>
-        </div>
-
-        <div id="mapamental">
-            <!-- Carousel -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                </div>
-
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/Idade Média (2).png" alt="New York" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/Idade Antiga.png" alt="Los Angeles" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/Idade Média (1).png" alt="Chicago" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/Idade Contemporânea.png" alt="New York" class="d-block w-100">
-                    </div>
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </div>
-
-        <div class="interatividade">
-            <div>
-
-            </div>
-        </div>
-
-        <div class="compartilhar">
-            <div>
-
->>>>>>> 6282e77b976b3c823914096ed4c98463155a0cb8
             </div>
         </div>
     </main>
 
     <footer>
         <div class="footer-icons">
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.facebook.com/senaitaubate">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://twitter.com/senai_taubate">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.instagram.com/senaitaubate/">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://br.linkedin.com/company/escolasenaitaubate">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.youtube.com/@SenaiSaoPauloSP">
                 <i class="fab fa-youtube"></i>
             </a>
         </div>

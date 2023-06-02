@@ -3,7 +3,7 @@
     --red: #e30613;
     --black: #000000;
     --white: #ffffff;
-    --gray: #878787;
+    --gray: #cecece;
     --redMedium: #9a1915;
     --redDark: #681413;
 }
@@ -17,6 +17,7 @@
 
 html {
     width: 100%;
+    height: 100%;
 }
 
 body {
@@ -32,11 +33,11 @@ body {
 header {
     background-color: var(--white);
     color: var(--black);
-    /* min-height: 60px; */
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 999;
+    align-items: center;
 }
 
 a {
@@ -49,11 +50,12 @@ ul {
 }
 
 main {
-    max-width: 1140px;
+    max-width: 1440px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* height: 100%; */
+    height: 100%;
+    margin-block-end: 45px;
 }
 
 h1 {
@@ -77,26 +79,27 @@ h2 {
 footer {
     background-color: var(--red);
     width: 100%;
-    height: 25%;
     bottom: 0;
     padding-bottom: 10px;
+    position: relative;
+    margin: auto;
 }
 
 /* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
-.container {
-    max-width: 1140px;
+.container-fluid {
+    max-width: 1440px;
 }
 
 .navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: space-evenly;
     padding: 50px 0 20px 0;
 }
 
 .navbar-menu {
     display: flex;
+    align-items: center;
 }
 
 .navbar-logo {
@@ -125,16 +128,17 @@ footer {
 
 .logo-content {
     display: flex;
-    width: 100px;
+    justify-content: center;
 }
 
 #img-logo {
-    width: 500px;
+    min-width: 300px;
+    max-width: 500px;    
 }
 
 .grid-columns {
     display: flex;
-    padding-top: 32px;
+    padding: 32px 0 0 0;
     flex-wrap: wrap;
     min-height: 132px;
     align-items: center;
@@ -142,9 +146,7 @@ footer {
 }
 
 .col-3 {
-    flex: 0 0 33.333333%;
-    max-width: 32.333333%;
-    width: 100%;
+    width: 300px;
     background-color: var(--white);
     margin: 5px;
     border-radius: 5px;
@@ -169,6 +171,8 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 200px;
+    text-align: center;
 }
 
 .icons-materia {
